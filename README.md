@@ -2,6 +2,17 @@
 
 Test that perl's hash data structure is secure
 
+# SYNOPSIS
+
+    % cpanm Test::SecureHash
+
+# DESCRIPTION
+
+This distribution simply checks on install that the installed perl has 
+hashes that are not vulnerable to the attacks described here:
+
+http://blog.booking.com/hardening-perls-hash-function.html
+
 # AUTHOR
 
 Graham Ollis <plicease@cpan.org>
